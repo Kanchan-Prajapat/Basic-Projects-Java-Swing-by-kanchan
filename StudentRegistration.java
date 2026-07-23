@@ -110,7 +110,6 @@ public void actionPerformed(ActionEvent e) {
         txtbranch.setText("");
         g.clearSelection();
         terms.setSelected(false);
-
     }
 
     else if(e.getSource()==reset){
