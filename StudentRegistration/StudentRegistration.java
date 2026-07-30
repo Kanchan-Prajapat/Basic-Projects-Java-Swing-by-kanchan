@@ -1,3 +1,4 @@
+package StudentRegistration;
 //Simple Student registration form using Java 
 import javax.swing.*;
 import java.awt.event.*;
