@@ -1,5 +1,5 @@
 package StudentRegistration;
-//Simple Student registration form using Java 
+//Simple Student registration form using Java swing
 import javax.swing.*;
 import java.awt.event.*;
 
@@ -106,7 +106,7 @@ public void actionPerformed(ActionEvent e) {
 
         JOptionPane.showMessageDialog(this,"Registration Successful");
 		//after submit reset the form
-		 txtname.setText("");
+		txtname.setText("");
         txtroll.setText("");
         txtbranch.setText("");
         g.clearSelection();
